@@ -1,4 +1,6 @@
 /*What are the Top 3 Products in each Region by Sales?*/
+
+
 with ranked_products as 
 (select  
 Product,
@@ -13,6 +15,8 @@ where products_rank < 3;
 #I have used str_to_date and case statement as "Order Date" coulmn was not standardised data type.So , to make it standardized I have used#
  
 /*MoM growth sales*/
+
+ 
 select * from saless limit 1;
 describe saless;
 
@@ -67,3 +71,29 @@ round(sum(total_Sales) over (order by sales_year , sales_month),2) as running_to
 from monthly_Sales;
 
 
+/*Which customers contribute to the first 80% of total Sales?*/
+
+
+with total_sales as 
+ (select 
+Customer,
+sum(Sales) as total_sales
+from saless
+group by Customer),
+ 
+customer_cumulative as 
+( select 
+Customer , 
+total_sales,
+sum(total_sales) over (order by total_sales desc) as cumulative_sales,
+sum(total_sales) over () as overall_sales
+from total_sales)
+ 
+select
+Customer ,
+round(total_sales,2), 
+round(cumulative_sales,2),
+round(cumulative_sales/overall_sales * 100,2)
+from customer_cumulative
+where cumulative_sales/overall_sales <= 0.80
+order by total_sales desc;
