@@ -12,3 +12,7 @@ Preparing a dashboard which involves 3 pages
 --Metrics included: Sales , Quantity , Profit , Profit Margin %
 --Dimensions are region  , sub region mainly.
 
+--Worked on 2 pages , containing total 10 visuals , 4 Kpi cards having sales metrics and two slicers synced to 2nd and 3rd pages yet
+
+#work in progress
+
