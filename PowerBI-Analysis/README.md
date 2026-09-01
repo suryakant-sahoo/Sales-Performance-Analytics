@@ -17,5 +17,7 @@ Preparing a dashboard which involves 3 pages
 1st September 2026:
 --Creating a dashboard for stakeholders who wants to see KPI numbers instead of just analyzing.The canvas contains all the dimensions in slicer format and all the KPI and leading metrics in visualization.
 
+--Create all Slicers in one group including Date Hierarachy , region , sub region ,segment , industry. And display all KPI metrics in cards visuals which helps us to show the direct perfromance of the company. KPI metrics onclide: Total Sales , Total Profit , Total QTY , Profit Margin % , Avg Order value , Sales growth % , segent % contriution ins ales and industry % in sales.
+
 #work in progress
 
