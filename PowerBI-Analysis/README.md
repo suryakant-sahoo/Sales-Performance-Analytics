@@ -14,5 +14,8 @@ Preparing a dashboard which involves 3 pages
 
 --Worked on 2 pages , containing total 10 visuals , 4 Kpi cards having sales metrics and two slicers synced to 2nd and 3rd pages yet
 
+1st September 2026:
+--Creating a dashboard for stakeholders who wants to see KPI numbers instead of just analyzing.The canvas contains all the dimensions in slicer format and all the KPI and leading metrics in visualization.
+
 #work in progress
 
