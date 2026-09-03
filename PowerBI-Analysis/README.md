@@ -19,5 +19,5 @@ Preparing a dashboard which involves 3 pages
 
 --Create all Slicers in one group including Date Hierarachy , region , sub region ,segment , industry. And display all KPI metrics in cards visuals which helps us to show the direct perfromance of the company. KPI metrics onclide: Total Sales , Total Profit , Total QTY , Profit Margin % , Avg Order value , Sales growth % , segent % contriution ins ales and industry % in sales.
 
-#work in progress
+#Completed
 
