@@ -26,3 +26,10 @@ Preparing a dashboard which involves 3 pages
 6th Spetember
 **Need to preare an report on the sales data providing the insights from the report**
 
+The Dashboard contains the data of the sales fo AWS products across different region and countries and their granular level.
+Objective:
+To find the KPI metrics .Build a exceutive level dashboard and also dashboard for analysis and comparative analysis of different dimensions.
+KPI metrics: 
+4 canvas are present in Power Bi project: 1st is executive levle dashboard(leaders who are interested only in numbers and performance of business).The other three canvas represents the analysis required for Data analytics team to see the real root for perfromance and how and why it is eprforming like that as cmparing to previous time.
+
+
