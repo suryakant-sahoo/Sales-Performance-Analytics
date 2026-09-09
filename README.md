@@ -43,7 +43,7 @@ Key dimensions include **Customer, Industry, Segment, Product, Country, Region, 
 
 ## Current Status
 
-**Work in Progress**
+**Completed — End-to-End Analytics Case Study**
 
 Completed: Data Profiling · Data Validation · Aggregation Checks · Intermediate SQL Analysis
 
@@ -51,7 +51,7 @@ Completed: Data Profiling · Data Validation · Aggregation Checks · Intermedia
 
 ## Business Objective
 
-The objective is to demonstrate how **SQL-driven analysis can support data-driven decision making** by identifying revenue drivers, profitable customers and products, regional opportunities, and potential profitability risks.
+The objective is to demonstrate how **SQL-driven analysis can support data-driven decision making with the help of BI tools** by identifying revenue drivers, profitable customers and products, regional opportunities, and potential profitability risks.
 
 ---
 
